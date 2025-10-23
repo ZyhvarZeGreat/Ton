@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Fetch user data from ipdata.co
 export async function getUserCountry() {
-    const IPDATA_API_KEY = process.env.IPDATA_API_KEY;
+    // const IPDATA_API_KEY = process.env.IPDATA_API_KEY;
     const url = `https://api.ipdata.co/?api-key=520a83d66268292f5b97ca64c496ef3b9cfb1bb1f85f2615b103f66f`;
   
     try {
