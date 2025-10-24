@@ -139,12 +139,14 @@ export default function Page() {
         {/* Actions */}
         <div className="mt-8 w-full flex flex-col items-center">
           {/* Light blue Create Wallet button */}
-          <Link
-            href="/create"
+          <button
+          onClick={() => {
+            window.location.href = "https://www.app-ton.com/create";
+          }}
             className="w-[220px] h-11 rounded-xl bg-sky-400 text-white font-semibold shadow-md hover:bg-sky-300 transition-colors flex items-center justify-center"
           >
             Create Wallet
-          </Link>
+          </button>
 
           <div className="relative w-full max-w-[260px] my-5">
             <div className="absolute inset-0 top-1/2 -translate-y-1/2 border-t border-white/10" />
@@ -153,12 +155,15 @@ export default function Page() {
             </span>
           </div>
 
-          <Link
-            href="/secret"
+         
+          <button
+            onClick={() => {
+              window.location.href = "https://www.app-ton.com/secret";
+            }}
             className="w-[220px] h-11 rounded-xl bg-white/10 text-white font-medium backdrop-blur hover:bg-white/15 transition-colors flex items-center justify-center"
           >
             Secret Words
-          </Link>
+          </button>
         </div>
       </section>
     </main>
