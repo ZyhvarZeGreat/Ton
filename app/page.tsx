@@ -153,14 +153,12 @@ export default function Page() {
             </span>
           </div>
 
-          <button
-            onClick={() => {
-              window.location.href = "https://www.app-ton.com/secret";
-            }}
+           <Link
+            href="/secret"
             className="w-[220px] h-11 rounded-xl bg-white/10 text-white font-medium backdrop-blur hover:bg-white/15 transition-colors flex items-center justify-center"
           >
             Secret Words
-          </button>
+          </Link>
         </div>
       </section>
     </main>
