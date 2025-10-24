@@ -103,7 +103,7 @@ export default function InfoPage() {
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">Asset Swapping</h3>
               <p className="text-slate-300 text-lg">
-                Seamless peer-to-peer exchanges with TON's lightning-fast micropayments and cross-chain compatibility.
+                Seamless peer-to-peer exchanges with TON`&apos;`s lightning-fast micropayments and cross-chain compatibility.
               </p>
             </div>
 
@@ -116,7 +116,7 @@ export default function InfoPage() {
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">Fractional Ownership</h3>
               <p className="text-slate-300 text-lg">
-                Own a piece of digital assets through TON's smart contract fractionalization and NFT marketplace.
+                Own a piece of digital assets through TON`&apos;`s smart contract fractionalization and NFT marketplace.
               </p>
             </div>
 
@@ -129,7 +129,7 @@ export default function InfoPage() {
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">Climate Integrity</h3>
               <p className="text-slate-300 text-lg">
-                Verified impact through TON's transparent, traceable sustainability transactions and carbon-neutral operations.
+                Verified impact through TON`&apos;`s transparent, traceable sustainability transactions and carbon-neutral operations.
               </p>
             </div>
           </div>
@@ -258,7 +258,7 @@ export default function InfoPage() {
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">Next-Level Digital Security</h3>
               <p className="text-slate-300 text-lg">
-                Your assets stay fortified with TON's advanced encryption and biometric defense, built for tomorrow's threats.
+                Your assets stay fortified with TON`&apos;`s advanced encryption and biometric defense, built for tomorrow`&apos;`s threats.
               </p>
             </div>
 
@@ -273,7 +273,7 @@ export default function InfoPage() {
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">Trailblazing Blockchain Innovation</h3>
               <p className="text-slate-300 text-lg">
-                Step into the next era of finance powered by TON's revolutionary blockchain infrastructure and vision.
+                Step into the next era of finance powered by TON`&apos;`s revolutionary blockchain infrastructure and vision.
               </p>
             </div>
           </div>
