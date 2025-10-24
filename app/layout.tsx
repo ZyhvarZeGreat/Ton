@@ -42,9 +42,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+      <meta name="robots" content="noindex, nofollow" />
+      <meta name="googlebot" content="noindex, nofollow" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${satoshi.variable} ${inter.variable} antialiased`}
       >
+        
         <ToastContainer
           autoClose={2000}
           hideProgressBar={true}
