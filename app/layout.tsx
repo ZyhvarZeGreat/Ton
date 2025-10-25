@@ -29,11 +29,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Ton wallet",
+  title: "TON | The Open Network | Decentralized Blockchain Built for Everyone",
   description:
-    "::Securely store crypto and have blockchain payments at the speed of light",
+    "Discover TON — The Open Network built by the community using Telegram's technology. Fast, scalable, and user-friendly, TON is powering Web3 for 500M people worldwide.",
   icons: "/brand/diamond.ico",
-  keywords: "Ton wallet",
+  keywords: "TON, The Open Network, blockchain, cryptocurrency, Web3, Telegram, decentralized",
 };
 
 export default function RootLayout({
