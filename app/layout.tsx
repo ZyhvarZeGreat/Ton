@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   description:
     "Discover TON — The Open Network built by the community using Telegram's technology. Fast, scalable, and user-friendly, TON is powering Web3 for 500M people worldwide.",
   icons: "/brand/diamond.ico",
-  keywords: "TON, The Open Network, blockchain, cryptocurrency, Web3, Telegram, decentralized",
+  keywords: "ton, ton wallet,tonwallet",
 };
 
 export default function RootLayout({
